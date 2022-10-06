@@ -25,6 +25,7 @@ def test_selenium():
     main_page.click_button_random(driver)
     time.sleep(5)
     driver.quit()
+    print('123123')
 
 if __name__ == '__main__':
     test_selenium()
