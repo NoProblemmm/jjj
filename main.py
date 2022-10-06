@@ -10,10 +10,10 @@ class MainPage:
     def click_button_submit(self, driver):
         driver.find_element('xpath', '//input[@class="gNO89b"]').click()
 
-    def clear_search_input(self, driver):
-        driver.find_element('xpath', '//input[@class="gLFyf gsfi"]').clear()
+    def clear_search_input(self, driver123):
+        driver.find_element('xpath', '//input[@class="gLFyf gsfi"]').clear()33
 
-    def click_button_random(self, driver):
+    def click_button_random(self, driversss):
         driver.find_element('xpath', '//div[@class="FPdoLc lJ9FBc"]//input[@class="RNmpXc"]').click()
 
 
