@@ -27,6 +27,7 @@ def test_selenium():
     driver.quit()
     print('123123')
     print('123123123')
+    print('1232123123123')
 
 if __name__ == '__main__':
     test_selenium()
